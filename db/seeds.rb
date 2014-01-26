@@ -5,3 +5,35 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.create!(
+	title: "title",
+	author: "author",
+	text: <<-eos.gsub(/\s+/, "").strip
+		blah blah blah blah
+	eos
+)
+
+Post.create!(
+	title: "title",
+	author: "author",
+	text: <<-eos.gsub(/\s+/, "").strip
+		blah blah blah blah
+	eos
+)
+
+Post.create!(
+	title: "title",
+	author: "author",
+	text: <<-eos.gsub(/\s+/, "").strip
+		blah blah blah blah
+	eos
+)
+
+Post.create!(
+	title: "title",
+	author: "author",
+	text: <<-eos.gsub(/\s+/, "").strip
+		blah blah blah blah
+	eos
+)
